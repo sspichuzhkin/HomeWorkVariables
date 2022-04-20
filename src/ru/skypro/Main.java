@@ -76,5 +76,6 @@ public class Main {
         System.out.println("Денис теперь получает " + salaryMonthNewDenisRound + " рублей. Годовой доход вырос на " + salaryYearDiffDenisRound + " рублей.");
         System.out.println("Кристина теперь получает " + salaryMonthNewKrisRound + " рублей. Годовой доход вырос на " + salaryYearDiffKrisRound + " рублей.");
 
+
     }
 }
