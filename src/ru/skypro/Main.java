@@ -22,7 +22,7 @@ public class Main {
         double boxerTwoWeight = 82.7;
         double boxersAllWeight = boxerOneWeight + boxerTwoWeight;
         double boxersAllWeightDifference = boxerOneWeight - boxerTwoWeight;
-        double boxersAllWeightDifferenceModule = abs (boxersAllWeightDifference);
+        double boxersAllWeightDifferenceModule = abs(boxersAllWeightDifference);
         System.out.println("Общий вес 2-х боксеров " + boxersAllWeight + " кг");
         System.out.println("Разница в весе 2-х боксеров " + boxersAllWeightDifferenceModule + " кг");
 
@@ -55,11 +55,11 @@ public class Main {
         double salaryMonthDenis = 83690;
         double salaryMonthKris = 76230;
         double salaryMonthNewMasha = salaryMonthMasha + salaryMonthMasha * 0.1;
-        String salaryMonthNewMashaRound = String.format("%.2f",salaryMonthNewMasha);
+        String salaryMonthNewMashaRound = String.format("%.2f", salaryMonthNewMasha);
         double salaryMonthNewDenis = salaryMonthDenis + salaryMonthDenis * 0.1;
-        String salaryMonthNewDenisRound = String.format("%.2f",salaryMonthNewMasha);
+        String salaryMonthNewDenisRound = String.format("%.2f", salaryMonthNewDenis);
         double salaryMonthNewKris = salaryMonthKris + salaryMonthKris * 0.1;
-        String salaryMonthNewKrisRound = String.format("%.2f",salaryMonthNewMasha);
+        String salaryMonthNewKrisRound = String.format("%.2f", salaryMonthNewKris);
         double salaryYearMasha = salaryMonthMasha * 12;
         double salaryYearDenis = salaryMonthDenis * 12;
         double salaryYearKris = salaryMonthKris * 12;
@@ -67,15 +67,13 @@ public class Main {
         double salaryYearNewDenis = salaryMonthNewDenis * 12;
         double salaryYearNewKris = salaryMonthNewKris * 12;
         double salaryYearDiffMasha = salaryYearNewMasha - salaryYearMasha;
-        String salaryYearDiffMashaRound = String.format("%.2f",salaryYearDiffMasha);
+        String salaryYearDiffMashaRound = String.format("%.2f", salaryYearDiffMasha);
         double salaryYearDiffDenis = salaryYearNewDenis - salaryYearDenis;
-        String salaryYearDiffDenisRound = String.format("%.2f",salaryYearDiffDenis);
+        String salaryYearDiffDenisRound = String.format("%.2f", salaryYearDiffDenis);
         double salaryYearDiffKris = salaryYearNewKris - salaryYearKris;
-        String salaryYearDiffKrisRound = String.format("%.2f",salaryYearDiffKris);
+        String salaryYearDiffKrisRound = String.format("%.2f", salaryYearDiffKris);
         System.out.println("Маша теперь получает " + salaryMonthNewMashaRound + " рублей. Годовой доход вырос на " + salaryYearDiffMashaRound + " рублей.");
         System.out.println("Денис теперь получает " + salaryMonthNewDenisRound + " рублей. Годовой доход вырос на " + salaryYearDiffDenisRound + " рублей.");
         System.out.println("Кристина теперь получает " + salaryMonthNewKrisRound + " рублей. Годовой доход вырос на " + salaryYearDiffKrisRound + " рублей.");
-
-
     }
 }
