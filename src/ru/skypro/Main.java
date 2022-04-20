@@ -9,13 +9,10 @@ public class Main {
         short shortExample = 27_072;
         int intExample = 777;
         long longExample = 7_000L;
-
         float floatExample = 3.14f;
         double doubleExample = 3.14;
-
         char charExample = 115;
         boolean booleanExample = false;
-
 
         // Task2
         double boxerOneWeight = 78.2;
